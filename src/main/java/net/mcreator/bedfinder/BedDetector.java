@@ -68,12 +68,13 @@ public class BedDetector {
 	 	int pz = p.getBlockZ();
 		System.out.println("ITEM PICKED UP!!!!!!");
 		//getBlockAt(l, p, 10, 52, 10);
-		checkAreaForBed(l, p, px, py, pz);		
+		checkAreaForBed(l, p, px, py, pz);
+		if (getBlockAt(l, p, px, py, pz) == Blocks.STONE) { System.out.println("STONE!"); }
 	}
 
 	public Block getBlockAt(Level level, Player player, int x, int y, int z) {
 		BlockPos pos = new BlockPos(x, y, z);
-		System.out.println(level.getBlockState(pos).getBlock());
+		//System.out.println(level.getBlockState(pos).getBlock());
 		
 		return level.getBlockState(pos).getBlock();
 	}

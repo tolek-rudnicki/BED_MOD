@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2023-01-09 20:44:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/warped_fence": {
     "criteria": {
       "has_planks": "2023-01-09 16:37:33 +0100"

@@ -1,18 +1,18 @@
-Java Launcher: /home/tolek/Downloads/MCreator.2022.3.Linux.64bit/MCreator20223/jdk/bin/java
-Arguments: '--clean, /home/tolek/.mcreator/gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.19.2-20220805.130853/joined-1.19.2-20220805.130853-srg.jar, --output, /home/tolek/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7/forge-1.19.2-43.1.7-binpatched.jar, --apply, /home/tolek/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7/forge-1.19.2-43.1.7-binpatches.lzma'
+Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Arguments: '--clean, C:\Users\Tolek\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, C:\Users\Tolek\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7\forge-1.19.2-43.1.7-binpatched.jar, --apply, C:\Users\Tolek\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7\forge-1.19.2-43.1.7-binpatches.lzma'
 Classpath:
- - /home/tolek/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1-fatjar.jar
-Working directory: /home/tolek/MCreatorWorkspaces/bedfinder/build/_applyBinpatches_2
+ - C:\Users\Tolek\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
+Working directory: C:\Users\Tolek\MCreatorWorkspaces\BED_MOD\build\_applyBinpatches_2
 Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
-  Clean:     /home/tolek/.mcreator/gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.19.2-20220805.130853/joined-1.19.2-20220805.130853-srg.jar
-  Output:    /home/tolek/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7/forge-1.19.2-43.1.7-binpatched.jar
+  Clean:     C:\Users\Tolek\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar
+  Output:    C:\Users\Tolek\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7\forge-1.19.2-43.1.7-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: /home/tolek/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7/forge-1.19.2-43.1.7-binpatches.lzma
+Loading patches file: C:\Users\Tolek\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7\forge-1.19.2-43.1.7-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 19e6c00e Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -2601,7 +2601,7 @@ Loading patches file: /home/tolek/.mcreator/gradle/caches/forge_gradle/minecraft
     Checksum: 58e446b8 Exists: true
   Reading patch net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider.binpatch
     Checksum: 8bce6adf Exists: true
-Processing: /home/tolek/.mcreator/gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.19.2-20220805.130853/joined-1.19.2-20220805.130853-srg.jar
+Processing: C:\Users\Tolek\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar
   Patching com/mojang/blaze3d/pipeline/RenderTarget 1/1
   Patching com/mojang/blaze3d/platform/GlStateManager$BlendState 1/1
   Patching com/mojang/blaze3d/platform/GlStateManager$BooleanState 1/1

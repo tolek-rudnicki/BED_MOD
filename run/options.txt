@@ -5,7 +5,7 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 enableVsync:false
-entityShadows:false
+entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
@@ -25,12 +25,12 @@ fov:1.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
-gamma:1.0
-renderDistance:2
-simulationDistance:5
-entityDistanceScaling:0.5
+gamma:0.5
+renderDistance:5
+simulationDistance:12
+entityDistanceScaling:1.0
 guiScale:2
-particles:2
+particles:0
 maxFps:260
 graphicsMode:0
 ao:0
@@ -72,7 +72,7 @@ skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:false
-syncChunkWrites:false
+syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
 chatPreview:1
