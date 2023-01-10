@@ -49,11 +49,20 @@ public class BedDetector {
 	public boolean checkAreaForBed(Level l, Player p, int px, int py, int pz) {
 		for (int j = 0; j < 320; j++) {
 			for (int i = -5; i < 5; ++i) {
-				if (getBlockAt(l, p, px + i, pz - 5, j) == Blocks.RED_BED) { System.out.println("BED AT" + px + i + ", " + (pz - 5) + ", " + j); }
-				if (getBlockAt(l, p, px - 5, pz + i, j) == Blocks.RED_BED) { System.out.println("BED AT" + (px - 5) + ", " + pz + i + ", " + j); }
-				if (getBlockAt(l, p, px + i, pz + 5, j) == Blocks.RED_BED) { System.out.println("BED AT" + px + i + ", " + pz + 5 + ", " + j); }
-				if (getBlockAt(l, p, px + 5, pz + i, j) == Blocks.RED_BED) { System.out.println("BED AT" + px + 5 + ", " + pz + i + ", " + j); }
-				
+				if (getBlockAt(l, p, px + i, pz - 5, j) == Blocks.STONE) { System.out.println("BED AT" + px + i + ", " + (pz - 5) + ", " + j); }
+				if (getBlockAt(l, p, px - 5, pz + i, j) == Blocks.STONE) { System.out.println("BED AT" + (px - 5) + ", " + pz + i + ", " + j); }
+				if (getBlockAt(l, p, px + i, pz + 5, j) == Blocks.STONE) { System.out.println("BED AT" + px + i + ", " + pz + 5 + ", " + j); }
+				if (getBlockAt(l, p, px + 5, pz + i, j) == Blocks.STONE) { System.out.println("BED AT" + px + 5 + ", " + pz + i + ", " + j); }
+				/*System.out.println("BED AT" + px + i + ", " + (pz - 5) + ", " + j);
+				System.out.println("BED AT" + (px - 5) + ", " + pz + i + ", " + j);
+				System.out.println("BED AT" + px + i + ", " + pz + 5 + ", " + j);
+				System.out.println("BED AT" + px + 5 + ", " + pz + i + ", " + j);*/
+
+				// x, z
+				// c1 -5 -5
+				// c2 +5 -5
+				// c3 +5 +5
+				// c4 -5 +5
 			}
 		}
 		return true;
